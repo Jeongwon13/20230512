@@ -1,0 +1,67 @@
+.myPage-content {
+    width: 1000px;
+    height: 800px;
+    margin: 50px auto;
+
+    display: flex;
+}
+
+.left-side {
+    flex-basis: 25%;
+    border-right : 2px solid tomato;
+}
+
+.list-group {
+    width: 100%;
+    padding: 0 20px 0 0;
+}
+
+.list-group > li {
+    list-style: none;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list-group > li > a {
+    text-decoration: none;
+    color: coral;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid tomato;
+}
+
+.list-group > li:hover {
+    background-color: #f7c2b2a4;
+}
+
+.myPage-main {
+    width: 75%;
+    padding: 0 50px;
+    
+}
+
+.myPage-title {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+}
+
+.myPage-explanation{
+    display: block;
+    margin-bottom: 30px;   
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+.myPage-row {
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+
+
+}
